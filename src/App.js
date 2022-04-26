@@ -44,10 +44,11 @@ class App extends React.Component {
             <li>Builders</li>
         </ul>
         <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            Working together to keep Tech employability of enginners alive and
+            accesible so tech comanies worldwide
+            get contributors and creators for technology solutions.
+            We believe this act of human collaboration acrosss an employability
+            platform is essential to individual growth and our collective future.
         </p>
         <p>
             To know about us, visit <a href = {this.url} onClick={this.onClick}>BridgeLabz </a> 
