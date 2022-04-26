@@ -7,7 +7,8 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      userName : ""   }
+      userName : ''
+    }
   }
   //onClick function
   onClick = ($event) => {
@@ -19,6 +20,7 @@ class App extends React.Component {
     console.log("value is ", event.target.value);
     this.setState({userName: event.target.value})
   }
+    
   render() {
     return (
       <>
@@ -35,3 +37,6 @@ class App extends React.Component {
   }
 }
 export default App;
+
+
+
