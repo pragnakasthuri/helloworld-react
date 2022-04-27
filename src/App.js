@@ -65,8 +65,8 @@ class App extends React.Component {
           <Link to="/about">About</Link>
         </li>
         <Switch>
-          <Route  path="/home" component={Home} exact></Route>
-          <Route  path="/about" component={About} exact></Route>
+          <Route path="/home" component={Home} exact></Route>
+          <Route path="/about" component={About} exact></Route>
         </Switch>
         </div>
     )
