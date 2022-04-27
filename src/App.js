@@ -1,6 +1,10 @@
 import logo from './assets/img/BL-Logo.png';
 import React from 'react';
+import Home from "./Home.js";
+import About from "./About";
 import './App.css';
+import { Link, Route, Switch} from 'react-router-dom';
+
 
 class App extends React.Component {
   url="https://www.bridgelabz.com/"
@@ -54,7 +58,17 @@ class App extends React.Component {
             To know about us, visit <a href = {this.url} onClick={this.onClick}>BridgeLabz </a> 
             to learn even more about our misiion i.e. <strong>Employability to all</strong>.
         </p>
-        </div>  
+        <li>
+          <Link to="/home">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <Switch>
+          <Route  path="/home" component={Home} exact></Route>
+          <Route  path="/about" component={About} exact></Route>
+        </Switch>
+        </div>
     )
   }
 } 
